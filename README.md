@@ -1,1 +1,1 @@
-Final Project for Kodluyoruz 139. Bursa Front-End Bootcamp
+Final Project for Kodluyoruz 139. Bursa Front-End Web Development Bootcamp
