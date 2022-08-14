@@ -1,0 +1,30 @@
+.detail{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: flex;
+
+/*     &:active{
+        background: linear-gradient(35deg, #494949, #313131);
+        color: white;
+    } */
+
+    &__title{
+        margin-bottom: 2rem;
+    }
+
+    &__list{
+        font-size: 1.2rem;
+        line-height: 2.5rem;
+    }
+    &__ul{
+        margin-top: 2rem;
+    }
+
+    &__image{
+        width: 400px;
+    }
+}
+
+.info{
+    margin-left: 5rem;
+}
