@@ -1,0 +1,21 @@
+.motion{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-gap: 3rem;
+}
+
+.card{
+    &__image{
+        width: 100%;
+        border-radius: 2rem;
+    }
+
+    &__link{
+        text-decoration: none;
+    }
+
+    &__title{
+        text-align: center;
+        padding: 4rem;
+    }
+}
