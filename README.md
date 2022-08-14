@@ -12,12 +12,12 @@ In this project, I created a recipe site using the Spoonacular Food API. The Spo
 ![French page](https://user-images.githubusercontent.com/77462852/184551537-89138d0b-1cd0-487a-8eca-f7ed00116703.PNG)
 
 ### Page Showing the Results of the Searched Recipe
-![searched page](https://user-images.githubusercontent.com/77462852/184551570-251f9852-5d2c-43b0-8b20-f81b2bab3e6b.PNG)
+![image](https://user-images.githubusercontent.com/77462852/184557524-93fbb5ab-dd04-4445-a9c0-9fc8b2ad1b30.png)
 
 ### Recipe Detail Page 1
-![tarif içi1](https://user-images.githubusercontent.com/77462852/184551622-867027fb-7076-48d4-a860-baee8475e2b3.PNG)
+![image](https://user-images.githubusercontent.com/77462852/184557546-fcaf35c6-ed1e-4506-b62b-935bcae9a36d.png)
 
 ### Recipe Detail Page 2
-![tarif içi2](https://user-images.githubusercontent.com/77462852/184551671-233147b0-f6a8-4b89-8f21-d9953329e15d.PNG)
+![image](https://user-images.githubusercontent.com/77462852/184557560-f979733c-324d-4b9d-a52c-09570ad937fd.png)
 
 
