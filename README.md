@@ -3,7 +3,7 @@
 In this project, I created a recipe site using the Spoonacular Food API. The Spoonacular API has a daily limit of 150 requests. This project is my first React project. There are still some deficiencies in the project that I tried to fix at some points. 
 
 ### Home Page 1
-![site](https://user-images.githubusercontent.com/77462852/184551487-144d4335-1602-44ed-9bd6-cfb748ed883e.PNG)
+![image](https://user-images.githubusercontent.com/77462852/184557488-ba674231-d224-4d81-b506-3cec092dddbd.png)
 
 ### Home Page 2
 ![home page2](https://user-images.githubusercontent.com/77462852/184551508-8db70031-e12a-47b6-9784-0ecf289c1f1e.PNG)
