@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
-import style from "./Popular.module.scss";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
+import { Link } from "react-router-dom";
+import style from "./Popular.module.scss";
+import styled from "styled-components";
+
 import '@splidejs/react-splide/css';
 
 
@@ -28,24 +31,40 @@ const Popular = () => {
         }
     }
     return (
-        <div className={style.popular}>
-            <h3>Most Searched Recipes</h3>
-            <Splide options={{
-                perPage: 2,
-            }}>
-                {popular.map((recipe) => {
-                    return (
-                        <SplideSlide key={recipe.id}>
-                            <div>
-                                <p className={style.popular__header}>{recipe.title}</p>
-                                <img className={style.popular__image} src={recipe.image} alt={recipe.title}></img>
-                            </div>
-                        </SplideSlide>
-                    )
-                })}
-            </Splide>
+        <div>
+            <div className={style.popular}>
+                <h3> Most Searched Foods </h3>
+                <Splide options={{
+                    perPage: 3,
+                    drag: "free",
+                    gap: "5rem",
+                }}>
+                    {popular.map((recipe) => {
+                        return (
+                            <SplideSlide key={recipe.id}>
+                                <div className={style.card}>
+                                    <Link to={"/recipe/"+recipe.id}>
+                                        <p className={style.card__title}>{recipe.title}</p>
+                                        <img className={style.card__image} src={recipe.image} alt={recipe.title} />
+                                        <Gradient /> 
+                                    </Link>
+                                </div>
+                            </SplideSlide>
+                        )
+                    })}
+                </Splide>
+            </div>
         </div>
     )
 }
+
+const Gradient = styled.div`
+    z-index: 3;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5));
+
+`;
 
 export default Popular;
