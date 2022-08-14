@@ -1,6 +1,6 @@
 # Final Project for Kodluyoruz 139. Bursa Front-End Web Development Bootcamp
 
-In this project, I created a recipe site using the Spoonacular Food API. The Spoonacular API has a daily limit of 150 requests. This project is my first React project. 
+In this project, I created a recipe site using the Spoonacular Food API. The Spoonacular API has a daily limit of 150 requests. This project is my first React project. There are still some deficiencies in the project that I tried to fix at some points. 
 
 ### Home Page 1
 ![site](https://user-images.githubusercontent.com/77462852/184551487-144d4335-1602-44ed-9bd6-cfb748ed883e.PNG)
