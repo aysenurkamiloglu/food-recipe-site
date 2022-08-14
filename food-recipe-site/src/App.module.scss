@@ -1,0 +1,18 @@
+.logo{
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-family: 'Satisfy', cursive;
+  }
+  
+  .header{
+    padding: 1rem 0rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  
+    &__svg{
+      font-size: 2rem;
+    }
+  }
+  
